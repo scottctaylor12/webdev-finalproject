@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>News Letter</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="indexcss.css">
+</head>
+<body>
+
+<header>
+	<h1>Endangered Monkeys in Vietnam</h1>
+</header>
+
+<nav>
+	<ul>
+		<li class="border"><a href="index.html">Home</a></li>
+		<li class="border"><a href="animal1.html">Tonkin Snub-nosed</a></li>
+		<li class="border"><a href="animal2.html">Cat Ba Langur</a></li>
+		<li class="border"><a href="animal3.html">Douc Langur</a></li>
+		<li class="border" id="current"><a href="newsletter.html">News Letter</a></li>
+		<li class="border"><a href="sources.html">Sources</a></li>
+	</ul>
+</nav>
+<main>
+<h3>Sign up for our news letter!</h3>
+<fieldset>
+<legend>News Letter Information</legend>
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+<select size="1" name="prefix" id="prefix">
+	<option>*Select your prefix</option>
+	<option>Mr</option>
+	<option>Ms</option>
+	<option>Mrs</option>
+</select>
+<br>
+<p>*Name: <input type="text" name="name" id="name" required="required" placeholder="John Smith"></p>
+<p>*Email: <input type="email" name="email" id="email" required="required" placeholder="name@domain"></p>
+<p>Animal you want to hear about:</p>
+<input type="checkbox" name="tonkin" id="tonkin" value="Tonkin Snub-nosed Monkey">Tonkin Snub-nosed Monkey
+<br>
+<input type="checkbox" name="catba" id="catba" value="Cat Ba Langur">Cat Ba Langur
+<br>
+<input type="checkbox" name="douclangur" id="douclangur" value="Douc Langur">Douc Langur
+<br>
+<p>How did you hear about this site?</p>
+<input type="radio" name="friend" id="friend" value="friend">Friend</br>
+<input type="radio" name="ads" id="ads" value="ads">Advertisement</br>
+<input type="radio" name="other" id="other" value="other">Other:
+<input type="text" name="othertext" id="othertext" placeholder="Other">
+<br>
+<p style="font-size: 8pt;">* = Required Field</p>
+</fieldset>
+<br>
+<p>Comments:</p>
+<textarea name="comments" id="comments" cols="40" rows="6">Enter your comments here</textarea>
+<br><br>
+<input type="submit">
+<input type="reset">
+</form>
+<br><br>
+<footer>&copy; Scott Taylor 2016</footer>
+<br><br><br><br><br><br><br><br>
+</main>
+<img src="grass.png" width="100%" height="150px" id="absolutebottom">
+</body>
+</html>
